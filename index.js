@@ -4,3 +4,7 @@ const returnFirstTwoDrivers = function(array){
   return first;
 }
 
+const returnLastTwoDrivers = function(array){
+  let first = array.slice(0,2)
+  return first;
+}
